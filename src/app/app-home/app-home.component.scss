@@ -50,3 +50,17 @@ input {
     float: right;
   }
 }
+
+.chart-container {
+  margin: 20px 0;
+  padding: 10px;
+  @extend .color-light;
+
+  label {
+    margin: 10px;
+  }
+
+  canvas {
+    margin-top: 10px;
+  }
+}
